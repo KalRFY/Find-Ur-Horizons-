@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Alegreya Sans Sc";
+}
+
+.hero-section {
+    height: 80vh;
+    background: #00160A;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+nav a:hover {
+    border-bottom: 5px solid white;
+}
+
+header {
+    padding: 1.2rem 3.4rem;
+}
+
+.text a {
+    font-weight: 900;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.character-box {
+    width: 10rem;
+    height: 16rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.character-box img {
+    max-height: 100%;
+    object-fit: cover;    
+    border-radius: 1rem;
+}
+
+.character-name {
+    max-width: 10rem;
+    width: 10rem;
+    height: 3.3rem;
+    background-color: #2D4A31;
+    border-radius: 1rem;
+}
+
+.character-section {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/alchemist-bg.png);
+    background-position: bottom center;
+    padding: 5rem 3rem;
+}
+
+.c-name {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.c-desc {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.c-plus {
+    font-weight: 700;
+}
+
+.c-suggest {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.unlock-premium {
+    background-color: #D3B581;
+    padding: 1.5rem 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+
+footer {
+    height: auto;
+    background-color: #101515;
+    padding: 3rem 0;
+}
+
+.footer-container {
+    gap: 6rem;
+}
+
+.footer-col{
+    width: 10rem;
+}
+
+.footer-col a {
+    text-decoration: none;
+    font-family: "Poppins";
+    color: rgb(197, 197, 197);
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.footer-col a:hover {
+    color: white;
+}
+
+.footer-col h3 {
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: white;
+}

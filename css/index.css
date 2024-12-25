@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Alegreya Sans Sc";
+}
+
+body {
+    background-image: url(../img/profile-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+nav a:hover {
+    border-bottom: 5px solid white;
+}
+
+header {
+    padding: 1.2rem 3.4rem;
+}
+
+.text a {
+    font-weight: 900;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hero-section {
+    padding: 5rem 10rem;
+    color: white;
+}
+
+.hero-left  {
+    width: 40rem;
+    font-size: 1.2rem;
+}
+
+.hero-left a {
+    border: 2px solid white;
+    padding: .8rem 1.5rem;
+    border-radius: 50px;
+}
+
+.hero-left h3 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.hero-right img {
+    width: 35rem;
+}
